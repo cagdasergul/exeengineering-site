@@ -6,7 +6,7 @@ import '../styles.css'
 
 const siteName = 'EXE Engineering — Multidisciplinary Engineering Design & Consultancy'
 const siteDescription =
-  'EXE Engineering delivers electrical, mechanical, HVAC, piping, automation and architectural design and project management for railway, metro, airport, data center, life science & pharma and retail projects.'
+  'EXE Engineering delivers automation, electrical, mechanical, HVAC, piping, and architectural design and project management for railway, metro, airport, data center, life science & pharma and retail projects.'
 
 export const Route = createRootRoute({
   head: () => ({
