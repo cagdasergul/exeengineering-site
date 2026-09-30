@@ -1,0 +1,33 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Archivo', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Menlo, monospace;
+  --color-ink: #0a1628;
+  --color-ink-2: #11213a;
+  --color-steel: #8a9bb4;
+  --color-paper: #f4f2ed;
+  --color-amber: #f5a524;
+  --color-amber-dark: #d4880c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Blueprint-style grid used on dark sections */
+.blueprint {
+  background-image:
+    linear-gradient(rgba(138, 155, 180, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(138, 155, 180, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
