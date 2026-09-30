@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1028 1028">
+  <title>EXE Engineering</title>
+  <rect width="1028" height="1028" fill="#121212"/>
+  <g transform="translate(70 330)" fill="#fff">
+    <path d="M0 0H226V73H88V146H210V215H88V295H226V368H0Z"/>
+    <path d="M270 0H375L447 110L512 0H614L497 184L618 368H515L439 256L375 368H272L390 181Z"/>
+    <path d="M662 0H888V73H750V146H872V215H750V295H888V368H662Z"/>
+  </g>
+</svg>
