@@ -17,9 +17,9 @@ export function Logo() {
       <img
         src="/logo.svg"
         alt={company.name}
-        width={1609}
-        height={677}
-        className="h-14 w-auto ring-1 ring-white/15 md:h-[72px]"
+        width={1364}
+        height={563}
+        className="h-14 w-auto md:h-[72px]"
       />
     </a>
   )
